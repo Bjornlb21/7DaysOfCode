@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F4F0EC;
+    width: 100vw;
+    height: 100vh;
+}
+
+.title {
+    color: #113366;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10ch;
+    text-align: center;
+    padding: 10px;
+}
+
+.home {
+    color: #AE7DAC;
+    font-size: 1ch;
+}
+
+.main-container {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8em auto;
+}
+
+.numbers-container {
+    background-color: #E8DAD6;
+    border: 1px solid darkslateblue;
+    border-radius: 16px;
+    width: 60vh;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-container {
+    background-color: #BCB6CB;
+    border: 1px solid darkslateblue;
+    border-radius: 16px;
+    width: 60vh;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3ch;
+}
+
+.number{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3ch;
+    padding: 3ch;
+    min-width: 300px;
+    text-align: center;
+}
+
+.number.cientoVeinte {
+    text-align: left;
+}
+
+.supInt {
+    color: blueviolet;
+}
+
+.dash {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.supString {
+    color: chocolate;
+}
+
+.result {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.2ch;
+    padding: 3ch;
+}
